@@ -1,0 +1,19 @@
+{
+  "name": "meta-api",
+  "version": "1.0.0",
+  "description": "Meta API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha lib/**/**.spec.js"
+  },
+  "keywords": [
+    "Meta",
+    "API"
+  ],
+  "author": "Mac Liu",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.5.0",
+    "request": "^2.83.0"
+  }
+}
